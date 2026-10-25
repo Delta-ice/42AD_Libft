@@ -6,7 +6,7 @@
 /*   By: abinsafw <abinsafw@student.42abudhabi.ae> #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 13:20:08 by abinsafw         #+#    #+#              */
-/*   Updated: 2026/10/15 17:56:16 by abinsafw        ###   ########.fr        */
+/*   Updated: 2026/10/16 18:54:59 by abinsafw        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isalnum(int c)
 {
-	if (ft_isdigit(c) || ft_isdigit(c))
+	if (ft_isalpha(c) || ft_isdigit(c))
 	{
 		return (1);
 	}
