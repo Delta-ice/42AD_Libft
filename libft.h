@@ -6,7 +6,7 @@
 /*   By: abinsafw <abinsafw@student.42abudhabi.ae> #+#  +:+       +#+         */
 /*                                               +#+#+#+#+#+   +#+            */
 /*   Created: 2026/10/12 13:11:31 by abinsafw         #+#    #+#              */
-/*   Updated: 2026/10/27 13:46:24 by abinsafw        ###   ########.fr        */
+/*   Updated: 2026/10/28 19:23:36 by abinsafw        ###   ########.fr        */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,5 +48,6 @@ int		ft_atoi(const char *nptr);
 void	*ft_calloc(size_t n, size_t size);
 char	*ft_strdup(const char *s);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
 
 #endif
